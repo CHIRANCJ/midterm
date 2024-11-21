@@ -1,0 +1,76 @@
+.form-container {
+  margin: 40px auto; /* Center form horizontally */
+  max-width: 800px;
+  flex: 1; /* Ensures the form-container grows to push the footer to the bottom */
+}
+
+.MuiStepper-root {
+  margin: 20px 0 30px 0; /* Adds space above and below the stepper */
+}
+  
+.form-step {
+  padding: 20px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-step-container {
+  margin-top: 30px;
+}
+
+h3 {
+  color: #007bff;
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+button {
+  width: 48%;
+  background-color: #003366; /* Primary button color */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #001755; /* Darker shade for hover effect */
+}
+
+.MuiStepLabel-label {
+  font-size: 1rem;
+  color: #001755; /* Use theme color */
+}
+
+.MuiStepLabel-label.Mui-active {
+  font-weight: bold;
+  color: #003366; /* Use primary theme color for active step */
+}
+
+.MuiStepConnector-line {
+  border-color: #001b36; 
+  border-width: 2px;
+}
+
+footer {
+  background-color: #003366; /* Footer background color */
+  color: #fff; /* Footer text color */
+  text-align: center;
+  padding: 15px;
+  position: relative; /* Ensure it stays in normal document flow */
+  bottom: 0;
+  width: 100%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
